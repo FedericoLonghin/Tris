@@ -9,6 +9,7 @@ void getKeyboardData()
     {
         grid[_x-1][_y-1] = currentPlayer + 1;
         currentPlayer = !currentPlayer;
+        nMove++;
     }
     else
         cout << "ERROR: your value isn't in the playable range!\n";
