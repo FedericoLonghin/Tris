@@ -1,3 +1,3 @@
-int grid[3][3]={0,1,2};
+int grid[3][3];
 bool somebodyHasWon;
 bool currentPlayer;
