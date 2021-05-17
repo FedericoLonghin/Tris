@@ -34,8 +34,10 @@ int main(int argc, char *argv[])
 
             getKeyboardData();  
             system("clear");
+            makeDecision();
             displayGrid();
-            cout << "danger: "<<getDanger(1,1)<<"\n";
+            for(int i=0;i<9;i++)cout<<importanceGrid[2+(i/3)][2+(i%3)]<<" ";
+           
             break;
         }
         somebodyHasWon = checkForWinners();
