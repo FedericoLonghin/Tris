@@ -3,9 +3,9 @@ void displayGrid(){
     for(int i=0;i<3;i++){
         cout <<"    ";
         for(int j=0;j<3;j++){
-            if(grid[i][j]==1)
+            if(grid[i+2][j+2]==1)
             cout <<"O";
-            else if(grid[i][j]==2)cout <<"X";
+            else if(grid[i+2][j+2]==2)cout <<"X";
             else cout<<" ";
             if(j<2)cout <<" | ";
         }

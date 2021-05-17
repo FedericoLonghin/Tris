@@ -7,7 +7,7 @@ void getKeyboardData()
     cin >> _y;
     if (_x > 0 && _x < 4 && _y > 0 && _y < 4 && !grid[_x-1][_y-1])
     {
-        grid[_x-1][_y-1] = currentPlayer + 1;
+        grid[_x+1][_y+1] = currentPlayer + 1;
         if(!gameMode)currentPlayer = !currentPlayer;
         nMove++;
     }

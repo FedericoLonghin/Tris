@@ -1,4 +1,4 @@
-int grid[3][3];
+int grid[7][7];
 int importanceGrid[3][3];
 bool somebodyHasWon;
 bool currentPlayer;

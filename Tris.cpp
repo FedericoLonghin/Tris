@@ -35,6 +35,7 @@ int main(int argc, char *argv[])
             getKeyboardData();  
             system("clear");
             displayGrid();
+            cout << "danger: "<<getDanger(1,1)<<"\n";
             break;
         }
         somebodyHasWon = checkForWinners();
