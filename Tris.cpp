@@ -4,6 +4,9 @@ using namespace std;
 #include "display.cpp"
 #include "GettingKeys.cpp"
 #include "checkingThings.cpp"
+#include "takingDecisions.cpp"
+
+
 
 int main(int argc, char *argv[])
 {
